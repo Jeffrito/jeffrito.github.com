@@ -61,5 +61,7 @@ h1 {font-size:30px;
 	
 h2 {color:gray;	
 	}
-
+article {float:right;
+	width:50%;
+	}
 
