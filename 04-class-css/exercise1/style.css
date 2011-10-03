@@ -50,10 +50,16 @@ table {
 	border-spacing: 0;
 }
 
-<styles>
-h1 {font-size:30px
+body {
+  margin:0 auto;
+  width:960px;
+}
+
+h1 {font-size:30px;
+	font-family:Ariel;
+	}
 	
+h2 {color:gray;	
 	}
 
-</styles>
 
