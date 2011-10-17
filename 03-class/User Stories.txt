@@ -1,0 +1,13 @@
+User Stories
+
+Restaurant - Fast Food
+-Jack age 32: Loves fast food and only eats fast food. The larger the selection of food the better. He doesn't want to get bored, ideally he'd like an updated menu. Considering that he's also constantly eating this food throughout the day he needs to know where other chains of this fast food restaurant are located and their hours.
+-Jill age 43, + 4 kids: On the go mom and doesn't have time to cook. That being said she always orders food instead. Having some concern over what she's feeding her kids, Jill is interested in knowing the nutrition facts of foods on the menu.
+
+Agency - Design Firm
+-Ren age 50: Stimpy is starting up a business and is in need of an identity and promotional materials. He's an entrepreneur with little time, patience, and is extremely picky about the firm's portfolio and reputation. He needs contacts asap to give him more info.
+-Stimpy age 22: Is fresh out of art school, a graphic designer, and is looking for a job.
+
+Band - Hip Hop Duo
+-Jeff age 19: Absolutely loves this group, so much so that he needs psychiatric help. Goes to their concerts all the time, keeps up with news, musical releases, any kind of information he can get his hands on.
+-Geff age 29: Is a reporter from a famous hip hop magazine. He wants to get an interview with the Hip Hop Duo to a get a story on their life and success. He needs to get in contact with their record label. 
