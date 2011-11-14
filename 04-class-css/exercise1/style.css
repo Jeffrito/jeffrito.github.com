@@ -52,29 +52,46 @@ table {
 container{
 	position:relative;
 }
+
+#main-content { width:100%; margin:0 auto; max width:1024px;}
+
 body{
 	width:960px;
 	margin:0 auto;
 }
+
 #dog{
 	position:float;
 	left:100px;
 	width:400px;
 }
+
 #cat{
 	position:float;
 	right:600px;
 	width:400px;
 }
+
 h1{
-	font-size:30px;font-family:arial;font-weight:bold;margin:20px
+	font-size:30px;
+	font-family:arial;
+	font-weight:bold;
+	margin:20px
 }
+
 h2{
-	font-size:30px;font-family:arial;margin:20px;color:gray;
+	font-size:30px;
+	font-family:arial;
+	margin:20px;
+	color:gray;
 }
+
 p{
-	font-size:16px;font-family:arial;margin:20px;
+	font-size:16px;
+	font-family:arial;
+	margin:20px;
 }
+
 img{
 	float:left;
 	margin:20px;
