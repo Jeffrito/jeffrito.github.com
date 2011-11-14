@@ -49,24 +49,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	
-#content {width:100%; margin:0 auto; max-width:1024px;
+#main-content {width:100%; margin:0 auto; max-width:1024px;
 }
 
 container{
 	position:realative;
 }
 body{
-	width:400px;
+	width:960px;
 	margin:0 auto;
 }
 #dog{
-	position:absolute;
+	position:float;
 	left:100px;
 	width:400px;
 }
 #cat{
-	position:absolute;
-	left:600px;
+	position:float;
+	right:600px;
 	width:400px;
 }
 h1{
@@ -76,7 +76,7 @@ h2{
 	font-size:2em;font-family:arial;margin:20px;color:gray;
 }
 p{
-	font-size:1empx;font-family:arial;margin:20px;
+	font-size:1em;font-family:arial;margin:20px;
 }
 img{
 	float:left;
