@@ -49,37 +49,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-container{
-	position:realative;
-}
-body{
-	width:400px;
-	margin:0 auto;
-}
-#dog{
-	position:absolute;
-	left:px;
-	width:400px;
-}
-#cat{
-	position:absolute;
-	left:600px;
-	width:400px;
-}
-h1{
-	font-size:30px;font-family:arial;font-weight:bold;margin:20px
-}
-h2{
-	font-size:15px;font-family:arial;margin:20px;color:gray;
-}
-p{
-	font-size:12px;font-family:arial;margin:20px;
-}
-img{
-	float:left;
-	margin:20px;
+
+body {
+  margin:0 auto;
+  width:960px;
 }
 
+h1 {font-size:30px;
+	font-family:Ariel;
+	}
 	
-	
+h2 {color:gray;	
+	}
+article {float:left;
+	width:50%;
+	}
 
