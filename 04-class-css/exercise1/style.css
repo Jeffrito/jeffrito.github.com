@@ -48,7 +48,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	
+#content {width:100%; margin:0 auto; max-width:1024px;
 }
+
 container{
 	position:realative;
 }
@@ -58,7 +61,7 @@ body{
 }
 #dog{
 	position:absolute;
-	left:px;
+	left:100px;
 	width:400px;
 }
 #cat{
@@ -67,19 +70,21 @@ body{
 	width:400px;
 }
 h1{
-	font-size:30px;font-family:arial;font-weight:bold;margin:20px
+	font-size:2em;font-family:arial;font-weight:bold;margin:20px
 }
 h2{
-	font-size:15px;font-family:arial;margin:20px;color:gray;
+	font-size:2em;font-family:arial;margin:20px;color:gray;
 }
 p{
-	font-size:12px;font-family:arial;margin:20px;
+	font-size:1empx;font-family:arial;margin:20px;
 }
 img{
 	float:left;
 	margin:20px;
 }
 
-	
+
+
+
 	
 
