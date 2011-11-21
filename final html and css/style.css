@@ -54,27 +54,36 @@ table {
 
 #top-nav {
 	font-color:grey;
-	background-color:white;
+	background-color:grey;
+	border-radius:5px;
 	margin:0 auto;
 	width:960px;
 	padding:3px;
 	position:absolute;
+	text-align:center;
 	
 	
 	}
 	
-	h1 {font-size:60px;
+	h1 {font-size:90px;
+	color:#333333;
 	position:relative;
 	left:640px;}
 	
-	h2 {color:#740400;
+	h2 {
+	color:#740400;
 	position:relative;
-	left:640px;
-	margin:30px;}
+	left:627px;
+	top:30px;
+	margin:0 auto;}
 	
 	#logo {position: relative;
-	top:50px;
+	margin:0 auto;
+	top:90px;
 	}
+	
+		#twocranes {display:block;
+		margin:0 auto;}
 	
 	body {
 		background-color:#dadadb;
@@ -97,12 +106,15 @@ display:block;
 	
 h3 {color:white;
 background-color:grey;
-width:640px;
-text-align:right;
+width:300px;
+text-align:center;
 position:absolute;
-left:520px;
+left:px;
 top:200px;
-padding-right:100px;
+padding-left:100px;
+border-bottom-right-radius:5px;
+border-top-right-radius:5px;
+	
 }	
 
 #bottom-navs {
@@ -111,6 +123,9 @@ padding-right:100px;
 	margin:0 auto;
 	width:960px;
 	padding:3px;
-	position:absolute;
+	position:relative;
+	text-align:center;
+	bottom:px;
+	border-radius:5px;
 }
 
