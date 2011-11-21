@@ -54,7 +54,7 @@ table {
 
 #top-nav {
 	font-color:grey;
-	background-color:grey;
+	background-color:white;
 	border-radius:5px;
 	margin:0 auto;
 	width:960px;
@@ -118,14 +118,13 @@ border-top-right-radius:5px;
 }	
 
 #bottom-navs {
-	font-color:white;
-	background-color:grey;
+	background-color:white;
 	margin:0 auto;
 	width:960px;
 	padding:3px;
 	position:relative;
 	text-align:center;
-	bottom:px;
+	bottom:-40px;
 	border-radius:5px;
 }
 
