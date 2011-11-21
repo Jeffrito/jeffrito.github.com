@@ -128,9 +128,10 @@ border-top-right-radius:5px;
 
 #aboutme {float:none;
 display:block;
+margin:0 auto;
 text-align:center;
-top:625px;
 color:grey;
+top:300px;
 
 }
 
