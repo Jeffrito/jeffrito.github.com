@@ -67,8 +67,6 @@ a:active {color:grey;}
 	padding:3px;
 	position:absolute;
 	text-align:center;
-	display:block;
-	
 	
 	}
 	
@@ -82,7 +80,8 @@ a:active {color:grey;}
 	position:relative;
 	left:627px;
 	top:30px;
-	margin:0 auto;}
+	margin:0 auto;
+	}
 	
 	#logo {position: relative;
 	margin:0 auto;
@@ -101,7 +100,13 @@ a:active {color:grey;}
   line-height:1.4em;
 }
 
-
+#estofstuff {position:relative;
+top:100px;
+left:500px;
+background-color:#dadadb;
+width:1000px;
+display:block;
+}
 
 
 
@@ -118,6 +123,26 @@ border-bottom-right-radius:5px;
 border-top-right-radius:5px;
 	
 }	
+
+h4 {display:block;
+float:left;
+top:500px;
+font-size:18px;
+font-weight:bold;
+color:grey;
+width:200px;
+margin:10px;
+}
+
+h5 {display:block;
+float:left;
+top:510px;
+font-size:18px;
+font-weight:bold;
+color:grey;
+width:50px;
+}
+
 
 #bottom-navs {
 	background-color:white;
