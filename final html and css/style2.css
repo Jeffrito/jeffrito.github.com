@@ -59,39 +59,33 @@ a:hover {color:#740400;}
 a:active {color:grey;}
 
 #top-nav {
+	font-size:14px;
 	font-color:grey;
 	background-color:white;
 	border-radius:5px;
 	margin:0 auto;
 	width:960px;
-	padding:3px;
+	padding:1.5px;
 	position:absolute;
 	text-align:center;
 	}
 	
 #top-nav li a {display:block;
 float:left;
-padding-left:81px;
-padding-right:81px;
+padding-left:86px;
+padding-right:86px;
 }
+
 	
 	h1 {font-size:90px;
 	color:#333333;
-	position:relative;
-	left:640px;}
+	margin:0 auto;}
 	
-	h2 {
-	color:#740400;
-	position:relative;
-	left:627px;
-	top:30px;
-	margin:0 auto;
-	}
 	
 	#logo {position: relative;
+	display:block;
 	margin:0 auto;
-	top:90px;
-	right:60px;
+	top:80px;
 	}
 	
 		#twocranes {display:block;
@@ -108,7 +102,9 @@ padding-right:81px;
 
 
 	
-h3 {color:white;
+h3 {
+font-size:15px;
+color:white;
 background-color:grey;
 width:300px;
 text-align:right;
@@ -140,16 +136,16 @@ color:grey;
 width:50px;
 }
 
-#bottom-navs {
+#bottom-quote {
 	font-size:14px;
-	color:grey;
-	background-color:white;
+	color:white;
+	background-color:grey;
 	margin:0 auto;
 	width:960px;
-	padding:3px;
+	padding:1.5px;
 	position:relative;
 	text-align:center;
-	bottom:-60px;
+	bottom:0px;
 	border-radius:5px;
 }
 
