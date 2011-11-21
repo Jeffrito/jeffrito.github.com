@@ -101,7 +101,6 @@ padding-right:86px;
 }
 
 
-
 	
 h3 {
 font-size:15px;
@@ -119,14 +118,15 @@ border-top-right-radius:5px;
 }	
 
 
-
 #aboutcrane {
 	display:block;
 			float:none;
-			margin: 0 auto;
-}
+			margin: 0 auto;}
 
-#aboutme {float:none;
+
+#aboutme 
+
+{float:none;
 display:block;
 margin:0 auto;
 text-align:center;
