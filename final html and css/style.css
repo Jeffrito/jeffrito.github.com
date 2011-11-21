@@ -69,8 +69,13 @@ a:active {color:grey;}
 	text-align:center;
 	display:block;
 	
-	
 	}
+	
+	#top-nav li a {display:block;
+float:left;
+padding-left:81px;
+padding-right:81px;
+}
 	
 	h1 {font-size:90px;
 	color:#333333;
@@ -102,31 +107,30 @@ a:active {color:grey;}
 }
 
 
-
-
-
 	
 h3 {color:white;
 background-color:grey;
 width:300px;
-text-align:center;
+text-align:right;
 position:absolute;
 left:px;
 top:200px;
-padding-left:50px;
+padding-right:50px;
 border-bottom-right-radius:5px;
 border-top-right-radius:5px;
 	
 }	
 
 #bottom-navs {
+	font-size:14px;
+	color:grey;
 	background-color:white;
 	margin:0 auto;
 	width:960px;
 	padding:3px;
 	position:relative;
 	text-align:center;
-	bottom:-40px;
+	bottom:-60px;
 	border-radius:5px;
 }
 
