@@ -53,6 +53,28 @@ container{
 	position:relative;
 }
 
+
+#wrapper { width:100%; margin:0 auto; max-width:1024px; }
+  #sidebar { float:right; width:33%; margin-right:1%; }
+
+  img { max-width:100%; }
+  
+  @ media screen and (max-width:600px;) {
+    #main-content { float:none; width:98%; margin:0 1%; }
+    #sidebar { float:none; width:98%; margin:0 1%; }
+    h1 font-size {: 1.7em;}
+  h2 font-size {: 1.5em;} 
+  }
+  
+  @ media screen and {max-width:400px;} {
+    #main-content { float:none; width:98%; margin:0 1%; }
+    #sidebar { float:none; width:98%; margin:0 1%; }
+    h1 font-size {: 1.3em;}
+  h2 font-size {: 1em;}
+    #sidebar {display:none;}
+    #mobile-nav {display:block;}
+	}
+
 #main-content  width:100%; margin:0 auto; max width:1024px; }
 
 
@@ -98,7 +120,7 @@ img{
 	margin:20px;
 }
 
-
+ 
 
 
 	

@@ -48,58 +48,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-
-container{
-	position:relative;
 }
 
-#main-content  width:100%; margin:0 auto; max width:1024px; }
-
-
-body{
-	width:960px;
-	margin:0 auto;
-}
-
-#dog{
-	display:block;
-	float:left;
-	width:400px;
-}
-
-#cat{
-	display:block;
-	float:right;
-	width:400px;
-}
-
-h1{
-	font-size:30px;
-	font-family:arial;
-	font-weight:bold;
-	margin:20px
-}
-
-h2{
-	font-size:20px;
-	font-family:arial;
-	margin:20px;
-	color:gray;
-}
-
-p{
-	font-size:16px;
-	font-family:arial;
-	margin:20px;
-}
-
-img{
-	float:left;
-	margin:20px;
-}
-
-
-
-
-	
+body {
+  margin:0 auto;
+  width:960px;}
+  
+  h1 {font:LeagueGothicRegular;}
+  
 
