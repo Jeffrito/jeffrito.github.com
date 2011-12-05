@@ -59,7 +59,7 @@ a:hover {color:#740400;}
 a:active {color:grey;}
 
 #top-nav {
-	font-size:14px;
+	font-size:15px;
 	font-color:grey;
 	background-color:white;
 	border-radius:5px;
@@ -74,8 +74,8 @@ a:active {color:grey;}
 	
 	#top-nav li a {display:block;
 float:left;
-padding-left:86px;
-padding-right:86px;
+padding-left:84px;
+padding-right:84px;
 }
 
 
@@ -140,10 +140,11 @@ margin:0 auto;
 }
 
 #workicons {
-	position:fixed;
-	display:block;
+	position:relative;
+	top:100px;
+	
+	float:none;
 	text-align:center;
-left:325px;
 margin:0 auto;
 }
 
