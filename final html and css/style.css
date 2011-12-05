@@ -47,9 +47,23 @@ table {
 	border-spacing: 0;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+
 #menu-wrapper {
   margin:0 auto;
   width:960px;
+  
 }
 
 a:link {color:grey;
@@ -66,9 +80,10 @@ a:active {color:grey;}
 	margin:0 auto;
 	width:960px;
 	padding:1.5px;
-	position:absolute;
+	position:relative;
 	text-align:center;
 	display:block;
+	height:30px;
 	
 	}
 	
@@ -102,13 +117,13 @@ padding-right:84px;
 
 		#twocranes {
 			display:block;
-			float:none;
+			
 			margin: 0 auto;
 			}
 			
 			#aboutcrane {
 	display:block;
-			float:none;
+			
 			margin: 0 auto;}
 
 	
@@ -137,19 +152,26 @@ text-align:center;
 color:grey;
 top:300px;
 margin:0 auto;
+width:300px;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:300px;
+	padding-top:340px;
 }
 
 #workicons {
-	
-	top:300px;
+	position:relative;
+	top:360px;
 	display:block;
-margin:0 auto;
+	margin: 0 auto;
 }
 
 #workicons li a {
-	padding-left:75px;
+	padding-left:140px;
 	display:block;
-	top:400px;
+	
 	float:left;}
 
 
@@ -189,6 +211,5 @@ margin:0 auto;}
 #fbicon {float:none;
 display:block;
 margin:0 auto;}
-
 
 

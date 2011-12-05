@@ -6,7 +6,14 @@
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <LINK href="style.css" rel="stylesheet" type="text/css">
+  <LINK href="style.css" rel="stylesheet" type="text/css">  <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		 <script type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
+		    <script type="text/javascript" src="scripts/jquery.nivo.slider.pack.js"></script>
+		    <script type="text/javascript">
+		    $(window).load(function() {
+		        $('#slider').nivoSlider({directionNavHide: false});
+		    });
+		    </script>
 </head>
 
 <body>
@@ -28,9 +35,8 @@
 
 </nav>
 
-<section id='logo'>
-			<h1>?<h1/> 
-					<section/>
+		</header>
+					
 
 </div> <!-- end #menu-wrapper -->
 
@@ -38,31 +44,26 @@
 		
 			
 				
-			</header>
+	
 			
 		
 		
 		
 			<h3>Design Portfolio</h3>
-
-					<section id='workicons'>
-						<ul>	<li><a href='#'><img id='motogpicon' alt='motogpicon' src='motogpicon.png'></a></li>
-
-							<li>	<a href='#'><img id='kumomiicon' alt='kumomiicon' src='kumomiicon.png'></a></li>
-
-								</ul>
-								
-								<ul>	<li><a href='#'><img id='gdicon' alt='gdicon' src='gdicon.png'></a></li>
-
-									<li>	<a href='#'><img id='minfographicon' alt='minfographicon' src='minfographicon.png'></a></li>
-
-										</ul>
-								<section/>
-	
+<div id='wrapper'>
+<div id="slider" class="nivoSlider">
 	
 
-	<mg id='twittericon' alt='twittericon' src='twittericon.png'/>
-	<mg id='fbicon' alt='fbicon' src='fbicon.png'/>
+								 <img src="gdicon.png" alt="" />
+								    <a href="http://dev7studios.com"><img src="kumomiicon.png" alt="" title="#htmlcaption" /></a>
+								    <img src="minfographicon.png" alt="" title="This is an example of a caption" />
+								    <img src="motogp2.png" alt="" />
+									
+								</section>
+								</div>
+	
+	</div>
+
 	
 	
 
@@ -70,11 +71,13 @@
  
 <footer>
 	<nav id='bottom-quote'>
-			<p>“If you are going to have less things, they have to be great things.” -John Maeda<p/>
-					<footer/>
+			<p>“If you are going to have less things, they have to be great things.” -John Maeda<p>
+				</nav>
+					</footer>
+</body>
 
-	</nav>
-
-	</body>
+</html>
+	
+				
 
 </html>
