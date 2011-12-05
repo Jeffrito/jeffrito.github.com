@@ -140,13 +140,14 @@ margin:0 auto;
 }
 
 #workicons {
-	position:relative;
-	top:100px;
-	
-	float:none;
-	text-align:center;
+	top:300px;
+	display:block;
 margin:0 auto;
 }
+
+#workicons li a {
+	top:400px;
+	float:left;}
 
 
 #mainlinks li a {
