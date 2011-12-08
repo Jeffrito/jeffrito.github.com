@@ -12,7 +12,10 @@
  
 /* The Nivo Slider styles */
 .nivoSlider {
+	bottom:50px;
+	right:130px;
 	position:relative;
+	
 }
 .nivoSlider img {
 	position:absolute;
@@ -40,6 +43,7 @@
 	height:100%;
 }
 .nivo-box {
+	
 	display:block;
 	position:absolute;
 	z-index:5;
@@ -57,7 +61,7 @@
 }
 .nivo-caption p {
 	padding:5px;
-	margin:0;
+	margin:0 auto;
 }
 .nivo-caption a {
 	display:inline !important;
@@ -73,17 +77,38 @@
 	cursor:pointer;
 }
 .nivo-prevNav {
-	left:0px;
+	background-color:grey;
+	border-bottom-right-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-top-left-radius:5px;
+padding:5px;
+	color:white;
+	right:830px;
 }
 .nivo-nextNav {
-	right:-300px;
+	background-color:grey;
+	border-bottom-right-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-top-left-radius:5px;
+	padding:5px;
+	color:white;
+	right:-180px;
 }
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav a {
+	font:garamond;
+	padding:5px;
+	color:grey;
+	left:300px;
+	top:340px;
 	position:relative;
 	z-index:9;
 	cursor:pointer;
 }
 .nivo-controlNav a.active {
 	font-weight:bold;
+	color:#740400;
 }
+
