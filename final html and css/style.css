@@ -108,7 +108,16 @@ padding-right:84px;
 	
 	
 	body {
-		background-color:#dadadb;
+		background-color:#e8e8e9;
+  margin:0 auto;
+  font-family:garamond;
+  font-size:16px;
+  line-height:1.4em;
+}
+
+
+	#body3 {
+		background-color:#e8e8e9;
   margin:0 auto;
   font-family:garamond;
   font-size:16px;
@@ -127,16 +136,48 @@ padding-right:84px;
 			margin: 0 auto;}
 
 	
-h3 {
-font-size:15px;
-color:white;
-background-color:grey;
-width:300px;
-text-align:right;
-position:absolute;
-left:px;
+
+
+#h34page1{
+margin:0 auto;
+font-size:25px;
+color:#740400;
+background-color:rey;
+width:600px;
+text-align:center;
+position:relative;
+
 top:200px;
-padding-right:50px;
+border-bottom-right-radius:5px;
+border-top-right-radius:5px;
+	
+}
+
+#h34page2{
+margin:0 auto;
+font-size:25px;
+color:#740400;
+background-color:rey;
+width:600px;
+text-align:center;
+position:relative;
+
+top:200px;
+border-bottom-right-radius:5px;
+border-top-right-radius:5px;
+	
+}
+
+#h34page3{
+margin:0 auto;
+font-size:25px;
+color:#740400;
+background-color:rey;
+width:600px;
+text-align:center;
+position:relative;
+
+top:200px;
 border-bottom-right-radius:5px;
 border-top-right-radius:5px;
 	
@@ -152,13 +193,13 @@ text-align:center;
 color:grey;
 top:300px;
 margin:0 auto;
-width:300px;
+width:400px;
 }
 
 #wrapper {
 	margin:0 auto;
 	width:300px;
-	padding-right:145px;
+	padding-right:125px;
 	padding-top:320px;
 }
 
